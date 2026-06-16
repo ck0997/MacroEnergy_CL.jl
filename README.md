@@ -1,5 +1,6 @@
 # MacroEnergy_CL.jl
-# MacroEnergy_CL.jl
+
+for anna: the methodology is in improved_co2_pipelines, the results that I used for plotting are results_008, helper methods for plotting plot_co2_capture_transport_storage.py and the plots are in plot_results.ipynb (and the images themselves in plots)
 
 `MacroEnergy_CL.jl` is a China-focused low-carbon energy and industrial systems modeling repository built on top of [`MacroEnergy.jl`](https://github.com/macroenergy/MacroEnergy.jl). It contains MacroEnergy model extensions, case data, and analysis workflows for studying electricity, steel, cement, aluminum, CO2 transport, and CO2 storage options across Chinese provinces.
 
