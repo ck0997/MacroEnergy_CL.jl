@@ -1,0 +1,27 @@
+{
+    "case_settings": {
+        "ExpansionHorizon": "MacroEnergy.PerfectForesight()",
+        "PeriodLengths": [
+            5
+        ],
+        "DiscountRate": 0.045,
+        "WriteFullTimeseries": false,
+        "SolutionAlgorithm": "MacroEnergy.Monolithic()"
+    },
+    "system_settings": [
+        {
+            "ConstraintScaling": true,
+            "EnableJuMPDirectModel": false,
+            "EnableJuMPStringNames": true,
+            "AllowImplicitTopLevelCommodities": true,
+            "WriteSubcommodities": true,
+            "OverwriteResults": false,
+            "OutputDir": "results",
+            "OutputLayout": "wide",
+            "AutoCreateNodes": false,
+            "AutoCreateLocations": true,
+            "Retrofitting": true,
+            "DualExportsEnabled": true
+        }
+    ]
+}
