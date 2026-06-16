@@ -1,0 +1,252 @@
+Province,Technology,Capacity
+Anhui,Battery,2.112635278628638
+Anhui,Coal,82901.73695320386
+Anhui,Hydropower,5071.0
+Anhui,Natural Gas,916.0739905465664
+Anhui,Pumped Hydro,4680.0
+Anhui,Solar Distributed,1.5279112087609974
+Anhui,Solar Utility,1.4248710799897708
+Anhui,Wind Onshore,1.3336133193914572
+Beijing,Battery,2.8265914619376735
+Beijing,Coal,3.2662112856366057
+Beijing,Hydropower,892.0
+Beijing,Natural Gas,11376.530186437902
+Beijing,Pumped Hydro,892.0
+Beijing,Solar Distributed,1.4897732702276656
+Beijing,Solar Utility,1.3631064439386864
+Beijing,Wind Onshore,0.7964177047837011
+Chongqing,Battery,0.6054249127183875
+Chongqing,Coal,14394.26294440676
+Chongqing,Hydropower,5834.0
+Chongqing,Natural Gas,867.5464272512658
+Chongqing,Pumped Hydro,1200.0
+Chongqing,Solar Distributed,1.2067335228742024
+Chongqing,Solar Utility,1.3388295364606293
+Chongqing,Wind Onshore,1.0176263750406458
+Fujian,Battery,2.2203893410161
+Fujian,Coal,30320.265548777432
+Fujian,Hydropower,8922.0
+Fujian,Natural Gas,4022.837175512014
+Fujian,Nuclear,3510.7474275595387
+Fujian,Pumped Hydro,3800.0
+Fujian,Solar Distributed,1.486526786299521
+Fujian,Solar Utility,1.2574675541966904
+Fujian,Wind Offshore,0.4808163843112074
+Fujian,Wind Onshore,0.9754053659057682
+Gansu,Battery,2.0698848111200245
+Gansu,Coal,29543.07002905023
+Gansu,Hydropower,5514.0
+Gansu,Natural Gas,4.037224822056122
+Gansu,Solar Utility,1.5373375781987306
+Gansu,Wind Onshore,1.1007552924710264
+Guangdong,Battery,2.1107467527015307
+Guangdong,Coal,97195.31886876826
+Guangdong,Hydropower,12682.0
+Guangdong,Natural Gas,19551.16999125209
+Guangdong,Nuclear,6454.700119446835
+Guangdong,Pumped Hydro,10880.0
+Guangdong,Solar Distributed,1.659845718959332
+Guangdong,Solar Utility,1.656880365973052
+Guangdong,Wind Offshore,0.5536533800142681
+Guangdong,Wind Onshore,1.3416218616319555
+Guangxi,Battery,2.35978050402598
+Guangxi,Coal,32401.805322250995
+Guangxi,Hydropower,15330.0
+Guangxi,Natural Gas,143.2228029258202
+Guangxi,Nuclear,869.0855288868712
+Guangxi,Solar Utility,1.5520279986482706
+Guangxi,Wind Offshore,0.692496724365145
+Guangxi,Wind Onshore,1.3669554571662736
+Guizhou,Battery,0.5945588111869055
+Guizhou,Coal,32135.373426044414
+Guizhou,Hydropower,16735.0
+Guizhou,Natural Gas,4.060497648129218
+Guizhou,Solar Utility,1.537694715863836
+Guizhou,Wind Onshore,1.299089355417817
+Hainan,Battery,0.624926710404243
+Hainan,Coal,3059.518852827071
+Hainan,Hydropower,1002.0
+Hainan,Natural Gas,1019.0851966623288
+Hainan,Nuclear,520.8842094010593
+Hainan,Pumped Hydro,600.0
+Hainan,Solar Distributed,1.2668877035920474
+Hainan,Solar Utility,1.2628739399679034
+Hainan,Wind Offshore,0.7938069996743807
+Hainan,Wind Onshore,1.1869543296164378
+Hebei,Battery,2.1397678312182102
+Hebei,Coal,55001.260214853035
+Hebei,Hydropower,5570.0
+Hebei,Natural Gas,1372.1483294678103
+Hebei,Pumped Hydro,4870.0
+Hebei,Solar Distributed,1.562477348889615
+Hebei,Solar Utility,1.3653667975122517
+Hebei,Wind Offshore,0.4546963892976858
+Hebei,Wind Onshore,1.2499712137666603
+Heilongjiang,Battery,1.9879651770238809
+Heilongjiang,Coal,14961.023624870211
+Heilongjiang,Hydropower,1296.0
+Heilongjiang,Natural Gas,3.97186112938521
+Heilongjiang,Pumped Hydro,1200.0
+Heilongjiang,Solar Distributed,1.4210854715202004e-14
+Heilongjiang,Solar Utility,1.0047149892323262
+Heilongjiang,Wind Onshore,1.133748041798802
+Henan,Battery,0.6117672823207498
+Henan,Coal,55820.48400775122
+Henan,Hydropower,5170.0
+Henan,Natural Gas,1804.154266376881
+Henan,Pumped Hydro,2770.0
+Henan,Solar Distributed,1.5607689341325113
+Henan,Solar Utility,1.216656314277202
+Henan,Wind Onshore,1.3994149311265738
+Hubei,Battery,0.6189013699683982
+Hubei,Coal,31625.30010160402
+Hubei,Hydropower,33464.0
+Hubei,Natural Gas,406.8725568684439
+Hubei,Pumped Hydro,1200.0
+Hubei,Solar Distributed,1.4945201153237804
+Hubei,Solar Utility,1.43003780500851
+Hubei,Wind Onshore,1.376890655486818
+Hunan,Battery,2.0810463249447766
+Hunan,Coal,25263.295723506053
+Hunan,Hydropower,10668.0
+Hunan,Natural Gas,4.017679636885268
+Hunan,Pumped Hydro,1200.0
+Hunan,Solar Distributed,1.678108150045091
+Hunan,Solar Utility,1.2018426056985163
+Hunan,Wind Onshore,1.4339280781056156
+Innermongolia,Battery,2.3453208474251963
+Innermongolia,Coal,76762.6231387101
+Innermongolia,Hydropower,1960.0
+Innermongolia,Natural Gas,280.22039338943154
+Innermongolia,Pumped Hydro,1200.0
+Innermongolia,Solar Distributed,1.2789769243681806e-13
+Innermongolia,Solar Utility,1.5101345034363476
+Innermongolia,Wind Onshore,1.5984011059250505
+Jiangsu,Battery,2.010677023940447
+Jiangsu,Coal,80589.0558720516
+Jiangsu,Hydropower,3275.0
+Jiangsu,Natural Gas,17771.002104259467
+Jiangsu,Nuclear,2197.329601456584
+Jiangsu,Pumped Hydro,3275.0
+Jiangsu,Solar Distributed,1.3665942503332644
+Jiangsu,Solar Utility,1.4383453408877358
+Jiangsu,Wind Offshore,0.5251416288346953
+Jiangsu,Wind Onshore,1.095867026434822
+Jiangxi,Battery,0.6047618303181788
+Jiangxi,Coal,31191.16144001345
+Jiangxi,Hydropower,3327.0
+Jiangxi,Natural Gas,185.5722366094882
+Jiangxi,Pumped Hydro,1200.0
+Jiangxi,Solar Distributed,1.4949527570998384
+Jiangxi,Solar Utility,1.4251266921663728
+Jiangxi,Wind Onshore,1.219783207011493
+Jilin,Battery,2.65919348908692
+Jilin,Coal,18051.10770442678
+Jilin,Hydropower,5845.0
+Jilin,Natural Gas,3.8851283860983488
+Jilin,Pumped Hydro,1700.0
+Jilin,Solar Utility,0.988620170418443
+Jilin,Wind Onshore,1.2715713430234532
+Liaoning,Battery,2.8249776483180593
+Liaoning,Coal,23579.06247167682
+Liaoning,Hydropower,3995.0
+Liaoning,Natural Gas,4.1079723024150105
+Liaoning,Nuclear,1790.4333607255746
+Liaoning,Pumped Hydro,3000.0
+Liaoning,Solar Distributed,1.1502758649683074
+Liaoning,Solar Utility,1.0669386468674134
+Liaoning,Wind Offshore,0.3873014894935497
+Liaoning,Wind Onshore,1.312366472580428
+Ningxia,Battery,2.164417330629333
+Ningxia,Coal,24657.77318509964
+Ningxia,Hydropower,425.0
+Ningxia,Natural Gas,522.468997570646
+Ningxia,Solar Distributed,1.1368683772161605e-13
+Ningxia,Solar Utility,1.4845259287728825
+Ningxia,Wind Onshore,1.281667436359659
+Qinghai,Battery,2.314436089486375
+Qinghai,Coal,6455.508982084242
+Qinghai,Hydropower,15360.0
+Qinghai,Natural Gas,4.003329057857151
+Qinghai,Solar Distributed,1.9539925233402755e-14
+Qinghai,Solar Utility,1.4700137926588468
+Qinghai,Wind Onshore,1.330172373905698
+Shaanxi,Battery,2.3277607417115505
+Shaanxi,Coal,38853.23988989506
+Shaanxi,Hydropower,3866.0
+Shaanxi,Natural Gas,4.003740077119554
+Shaanxi,Pumped Hydro,1400.0
+Shaanxi,Solar Distributed,3.410605131648481e-13
+Shaanxi,Solar Utility,1.4687812237962137
+Shaanxi,Wind Onshore,1.3150202900112242
+Shandong,Battery,2.2349729616934124
+Shandong,Coal,106213.0370649206
+Shandong,Hydropower,4000.0
+Shandong,Natural Gas,4158.78613984326
+Shandong,Nuclear,1003.5462242812916
+Shandong,Pumped Hydro,4000.0
+Shandong,Solar Distributed,1.3363768934586917
+Shandong,Solar Utility,1.442213183437843
+Shandong,Wind Offshore,0.3760462264270392
+Shandong,Wind Onshore,1.3051281170872413
+Shanghai,Battery,2.149280867025405
+Shanghai,Coal,15800.489810985957
+Shanghai,Hydropower,6343.0
+Shanghai,Natural Gas,8065.565084587281
+Shanghai,Pumped Hydro,1200.0
+Shanghai,Solar Distributed,1.167748972468928
+Shanghai,Solar Utility,1.22856000287047
+Shanghai,Wind Offshore,0.4970125448367745
+Shanghai,Wind Onshore,1.1444026447943374
+Shanxi,Battery,2.2747273517431426
+Shanxi,Coal,53891.80548384621
+Shanxi,Hydropower,1200.0
+Shanxi,Natural Gas,2230.2648432224146
+Shanxi,Pumped Hydro,1200.0
+Shanxi,Solar Utility,1.454681807749921
+Shanxi,Wind Onshore,1.439456250402589
+Sichuan,Battery,2.3433444818640514
+Sichuan,Coal,14156.644806590832
+Sichuan,Hydropower,77966.0
+Sichuan,Natural Gas,1192.370989912897
+Sichuan,Solar Utility,1.329835529688978
+Sichuan,Wind Onshore,1.3662989827759036
+Tianjin,Battery,3.5373945429156857
+Tianjin,Coal,13314.119678668922
+Tianjin,Natural Gas,3658.45645095447
+Tianjin,Solar Distributed,1.188824130457789
+Tianjin,Solar Utility,1.1315382429677925
+Tianjin,Wind Offshore,0.4884360550854872
+Tianjin,Wind Onshore,0.6636708586097476
+Tibet,Battery,2.4355465467490016
+Tibet,Coal,3.280160615559579
+Tibet,Hydropower,2071.0
+Tibet,Natural Gas,4.023719312659129
+Tibet,Pumped Hydro,113.0
+Tibet,Solar Distributed,1.898560373056661
+Tibet,Solar Utility,1.3054545935638942
+Tibet,Wind Onshore,1.273919010947334
+Xinjiang,Battery,2.294785080845942
+Xinjiang,Coal,56656.4947362777
+Xinjiang,Hydropower,7559.0
+Xinjiang,Natural Gas,801.0987851810247
+Xinjiang,Pumped Hydro,1200.0
+Xinjiang,Solar Utility,1.450231933170926
+Xinjiang,Wind Onshore,1.3883054211134285
+Yunnan,Battery,0.6147568493219171
+Yunnan,Coal,7424.520869996099
+Yunnan,Hydropower,78760.0
+Yunnan,Natural Gas,4.059359466442845
+Yunnan,Solar Distributed,1.5631940186722204e-13
+Yunnan,Solar Utility,1.4031937994664077
+Yunnan,Wind Onshore,1.311484937155911
+Zhejiang,Battery,2.4315155011846334
+Zhejiang,Coal,51238.88380871719
+Zhejiang,Hydropower,10129.0
+Zhejiang,Natural Gas,14681.468815901831
+Zhejiang,Nuclear,3636.402730778209
+Zhejiang,Pumped Hydro,7680.0
+Zhejiang,Solar Distributed,1.4904705644232763
+Zhejiang,Solar Utility,1.2869237921332797
+Zhejiang,Wind Offshore,0.5151236141543001
+Zhejiang,Wind Onshore,0.9497775196246656
