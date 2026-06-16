@@ -1,0 +1,16 @@
+commodity,zone,resource_id,component_id,resource_type,component_type,capacity,new_capacity,retired_capacity,existing_capacity
+Electricity,MA_battery_storage_elec_MA,MA_battery,MA_battery_discharge_edge,Battery,UnidirectionalEdge{Electricity},1508.082494523136,1508.082494523136,0.0,0.0
+Electricity,CT_battery_storage_elec_CT,CT_battery,CT_battery_discharge_edge,Battery,UnidirectionalEdge{Electricity},839.9990969496854,839.9990969496854,0.0,0.0
+Electricity,ME_battery_storage_elec_ME,ME_battery,ME_battery_discharge_edge,Battery,UnidirectionalEdge{Electricity},205.38753257343257,205.38753257343257,0.0,0.0
+Electricity,MA_natural_gas_combined_cycle_transforms_elec_MA,MA_natural_gas_combined_cycle,MA_natural_gas_combined_cycle_elec_edge,ThermalPower{NaturalGas},EdgeWithUC{Electricity},9820.649102713267,9820.649102713267,0.0,0.0
+Electricity,CT_natural_gas_combined_cycle_transforms_elec_CT,CT_natural_gas_combined_cycle,CT_natural_gas_combined_cycle_elec_edge,ThermalPower{NaturalGas},EdgeWithUC{Electricity},8783.349326430267,8783.349326430267,0.0,0.0
+Electricity,ME_natural_gas_combined_cycle_transforms_elec_ME,ME_natural_gas_combined_cycle,ME_natural_gas_combined_cycle_elec_edge,ThermalPower{NaturalGas},EdgeWithUC{Electricity},20.770054121301627,20.770054121301627,0.0,0.0
+Electricity,elec_MA_elec_CT,MA_to_CT,MA_to_CT_transmission_edge,TransmissionLink{Electricity},BidirectionalEdge{Electricity},5899.980912243294,2949.9809122432944,0.0,2950.0
+Electricity,elec_MA_elec_ME,MA_to_ME,MA_to_ME_transmission_edge,TransmissionLink{Electricity},BidirectionalEdge{Electricity},3999.920909701609,1999.9209097016092,0.0,2000.0
+Electricity,MA_solar_pv_transforms_elec_MA,MA_solar_pv,MA_solar_pv_edge,VRE,UnidirectionalEdge{Electricity},7275.128136162517,7275.128136162517,0.0,0.0
+Electricity,CT_onshore_wind_transforms_elec_CT,CT_onshore_wind,CT_onshore_wind_edge,VRE,UnidirectionalEdge{Electricity},9479.379570230836,9479.379570230836,0.0,0.0
+Electricity,CT_solar_pv_transforms_elec_CT,CT_solar_pv,CT_solar_pv_edge,VRE,UnidirectionalEdge{Electricity},826.0431995396066,826.0431995396066,0.0,0.0
+Electricity,ME_onshore_wind_transforms_elec_ME,ME_onshore_wind,ME_onshore_wind_edge,VRE,UnidirectionalEdge{Electricity},7666.740290463437,7666.740290463437,0.0,0.0
+Electricity,MA_battery_storage,MA_battery,MA_battery_storage,Battery,Storage{Electricity},4484.178767511137,4484.178767511137,0.0,0.0
+Electricity,CT_battery_storage,CT_battery,CT_battery_storage,Battery,Storage{Electricity},2171.9741674082934,2171.9741674082934,0.0,0.0
+Electricity,ME_battery_storage,ME_battery,ME_battery_storage,Battery,Storage{Electricity},669.7508639208683,669.7508639208683,0.0,0.0

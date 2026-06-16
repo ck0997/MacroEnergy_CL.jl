@@ -1,0 +1,49 @@
+2026-06-01 10:42:32 | INFO | 1 | MacroEnergy | run_tools.jl:123 | Running case at /Users/chinnykwok/hmei/MacroEnergy.jl/electricity_3zone
+2026-06-01 10:42:32 | INFO | 1 | MacroEnergy | user_additions.jl:78 |  ++ Loading user additions from electricity_3zone/user_additions
+2026-06-01 10:42:32 | INFO | 1 | MacroEnergy | user_additions.jl:122 |  ++ Added user assets: 0
+2026-06-01 10:42:32 | INFO | 1 | MacroEnergy | load_stages_data.jl:37 | Loading case from /Users/chinnykwok/hmei/MacroEnergy.jl/electricity_3zone/system_data.json
+2026-06-01 10:42:32 | INFO | 1 | MacroEnergy | load_system_data.jl:17 | Loading system data
+2026-06-01 10:42:33 | INFO | 1 | MacroEnergy | load_system_data.jl:25 | Done loading system data. It took 1.02 seconds
+2026-06-01 10:42:33 | INFO | 1 | MacroEnergy | load_stages_data.jl:20 | Done loading case data. It took 1.02 seconds
+2026-06-01 10:42:33 | INFO | 1 | MacroEnergy | case.jl:15 | *** Generating case ***
+2026-06-01 10:42:34 | INFO | 1 | MacroEnergy | case_settings.jl:111 | Configuring case from settings/case_settings.json
+2026-06-01 10:42:34 | INFO | 1 | MacroEnergy | case_settings.jl:129 | Configuring case
+2026-06-01 10:42:34 | INFO | 1 | MacroEnergy | case_settings.jl:154 |  -- Setting solution algorithm
+2026-06-01 10:42:34 | INFO | 1 | MacroEnergy | case_settings.jl:165 |  -- Solution algorithm set to MacroEnergy.Monolithic()
+2026-06-01 10:42:34 | INFO | 1 | MacroEnergy | case.jl:30 | Generating systems
+2026-06-01 10:42:34 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
+2026-06-01 10:42:36 | INFO | 1 | MacroEnergy | load_commodities.jl:299 |  ++ Added user commodities: 0 top-level, 0 subcommodities
+2026-06-01 10:42:36 | WARN | 1 | MacroEnergy | load_json_inputs.jl:137 | Could not find: "system/locations.json", full path: /Users/chinnykwok/hmei/MacroEnergy.jl/system/locations.json
+2026-06-01 10:42:37 | WARN | 1 | MacroEnergy | load_time_data.jl:199 | Using default weights = 1 as no period map provided and each period maps to itself
+2026-06-01 10:42:37 | WARN | 1 | MacroEnergy | load_time_data.jl:199 | Using default weights = 1 as no period map provided and each period maps to itself
+2026-06-01 10:42:37 | WARN | 1 | MacroEnergy | load_time_data.jl:199 | Using default weights = 1 as no period map provided and each period maps to itself
+2026-06-01 10:42:48 | INFO | 1 | MacroEnergy | generate_system.jl:43 | Done generating system. It took 13.71 seconds
+2026-06-01 10:42:48 | INFO | 1 | MacroEnergy | case.jl:54 |  -- Discounting fixed costs for period 1
+2026-06-01 10:42:48 | INFO | 1 | MacroEnergy | case.jl:57 |  -- Computing retirement case for period 1
+2026-06-01 10:42:49 | INFO | 1 | MacroEnergy | case.jl:45 | *** Done generating case. It took 14.76 seconds ***
+2026-06-01 10:42:49 | INFO | 1 | MacroEnergy | solver.jl:7 | *** Running simulation with monolithic solver ***
+2026-06-01 10:42:49 | INFO | 1 | MacroEnergy | generate_model.jl:17 | Generating model
+2026-06-01 10:42:49 | INFO | 1 | MacroEnergy | generate_model.jl:30 |  -- Period 1
+2026-06-01 10:42:49 | INFO | 1 | MacroEnergy | generate_model.jl:37 |  -- Adding linking variables
+2026-06-01 10:42:49 | INFO | 1 | MacroEnergy | generate_model.jl:40 |  -- Defining available capacity
+2026-06-01 10:42:50 | INFO | 1 | MacroEnergy | generate_model.jl:43 |  -- Generating planning model
+2026-06-01 10:42:52 | INFO | 1 | MacroEnergy | generate_model.jl:51 |  -- Including age-based retirements
+2026-06-01 10:42:52 | INFO | 1 | MacroEnergy | generate_model.jl:59 |  -- Generating operational model
+2026-06-01 10:43:03 | INFO | 1 | MacroEnergy | generate_model.jl:98 |  -- Model generation complete, it took 14.391885995864868 seconds
+2026-06-01 10:43:03 | INFO | 1 | MacroEnergy | solver.jl:14 | Scaling constraints and RHS
+2026-06-01 10:50:14 | INFO | 1 | MacroEnergy | write_outputs.jl:13 | Writing results for period 1
+2026-06-01 10:50:17 | INFO | 1 | MacroEnergy | write_capacity.jl:68 | Writing capacity results to /Users/chinnykwok/hmei/MacroEnergy.jl/electricity_3zone/results_001/results/capacity.csv
+2026-06-01 10:50:24 | INFO | 1 | MacroEnergy | write_cost.jl:36 | Writing total discounted costs to /Users/chinnykwok/hmei/MacroEnergy.jl/electricity_3zone/results_001/results/costs.csv
+2026-06-01 10:50:25 | INFO | 1 | MacroEnergy | write_cost.jl:79 | Writing total undiscounted costs to /Users/chinnykwok/hmei/MacroEnergy.jl/electricity_3zone/results_001/results/undiscounted_costs.csv
+2026-06-01 10:50:27 | INFO | 1 | MacroEnergy | write_cost.jl:565 | Writing detailed discounted costs by type to /Users/chinnykwok/hmei/MacroEnergy.jl/electricity_3zone/results_001/results/costs_by_type.csv
+2026-06-01 10:50:27 | INFO | 1 | MacroEnergy | write_cost.jl:573 | Writing detailed discounted costs by zone to /Users/chinnykwok/hmei/MacroEnergy.jl/electricity_3zone/results_001/results/costs_by_zone.csv
+2026-06-01 10:50:27 | INFO | 1 | MacroEnergy | write_cost.jl:565 | Writing detailed undiscounted costs by type to /Users/chinnykwok/hmei/MacroEnergy.jl/electricity_3zone/results_001/results/undiscounted_costs_by_type.csv
+2026-06-01 10:50:28 | INFO | 1 | MacroEnergy | write_cost.jl:573 | Writing detailed undiscounted costs by zone to /Users/chinnykwok/hmei/MacroEnergy.jl/electricity_3zone/results_001/results/undiscounted_costs_by_zone.csv
+2026-06-01 10:50:28 | INFO | 1 | MacroEnergy | write_flow.jl:66 | Writing flow results to /Users/chinnykwok/hmei/MacroEnergy.jl/electricity_3zone/results_001/results/flows.csv
+2026-06-01 10:50:29 | INFO | 1 | MacroEnergy | write_non_served_demand.jl:44 | Writing non-served demand results to /Users/chinnykwok/hmei/MacroEnergy.jl/electricity_3zone/results_001/results/non_served_demand.csv
+2026-06-01 10:50:29 | INFO | 1 | MacroEnergy | write_storage_level.jl:58 | Writing storage level results to /Users/chinnykwok/hmei/MacroEnergy.jl/electricity_3zone/results_001/results/storage_level.csv
+2026-06-01 10:50:29 | INFO | 1 | MacroEnergy | write_curtailment.jl:44 | Writing curtailment results to /Users/chinnykwok/hmei/MacroEnergy.jl/electricity_3zone/results_001/results/curtailment.csv
+2026-06-01 10:50:30 | INFO | 1 | MacroEnergy | write_time_weights.jl:49 | Writing time weights to /Users/chinnykwok/hmei/MacroEnergy.jl/electricity_3zone/results_001/results/time_weights.csv
+2026-06-01 10:50:30 | INFO | 1 | MacroEnergy | write_duals.jl:38 | Writing constraint dual values to /Users/chinnykwok/hmei/MacroEnergy.jl/electricity_3zone/results_001/results
+2026-06-01 10:50:30 | INFO | 1 | MacroEnergy | write_duals.jl:81 | Writing balance constraint dual values to /Users/chinnykwok/hmei/MacroEnergy.jl/electricity_3zone/results_001/results
+2026-06-01 10:50:30 | INFO | 1 | MacroEnergy | write_duals.jl:174 | Writing CO2 cap constraint dual values to /Users/chinnykwok/hmei/MacroEnergy.jl/electricity_3zone/results_001/results
