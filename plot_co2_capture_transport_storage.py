@@ -130,6 +130,16 @@ def load_inputs(results_dir: Path):
 
 
 def load_china_gdf(gpd, map_path: Path):
+    map_path = Path(map_path)
+    if not map_path.exists() and map_path.name == "gadm36_CHN_1.json":
+        fallback = (
+            Path(__file__).resolve().parent.parent
+            / "improved_co2_pipelines"
+            / "chinny_co2_pipeline_distance"
+            / "gadm36_CHN_1.json"
+        )
+        if fallback.exists():
+            map_path = fallback
     gdf = gpd.read_file(map_path)
     gdf["NAME_1"] = gdf["NAME_1"].replace(PROVINCE_RENAME)
     return gdf
@@ -919,7 +929,15 @@ def parse_args():
     script_dir = Path(__file__).resolve().parent
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--results-dir", default="results_008/results")
-    parser.add_argument("--map-path", default=str(script_dir.parent / "distance_co2pipeline" / "gadm36_CHN_1.json"))
+    parser.add_argument(
+        "--map-path",
+        default=str(
+            script_dir.parent
+            / "improved_co2_pipelines"
+            / "chinny_co2_pipeline_distance"
+            / "gadm36_CHN_1.json"
+        ),
+    )
     parser.add_argument(
         "--route-path",
         default=str(
